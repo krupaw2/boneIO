@@ -1,7 +1,3 @@
-esphome:
-  name: ${name}
-  friendly_name: ${friendly_name}
-  
 sensor:
   - platform: uptime
     id: wt32_uptime_seconds
