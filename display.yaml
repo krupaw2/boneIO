@@ -1,4 +1,7 @@
-#i2c  address: 0x3C input oled
+esphome:
+  name: ${name}
+  friendly_name: ${friendly_name}
+  
 sensor:
   - platform: uptime
     id: wt32_uptime_seconds
