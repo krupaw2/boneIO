@@ -113,8 +113,6 @@ display:
           it.printf(4, 61, id(size_10), TextAlign::BASELINE_LEFT, "Temperature:");
           it.printf(124, 61, id(size_10), TextAlign::BASELINE_RIGHT, "%.2f°C", id(boneIO_temp).state);
 
-      # additional pages should be defined between the first and last page
-
       - id: last_page
         lambda: |-
           it.rectangle(0, 0, 126, 15);
